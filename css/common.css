@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+#categories {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.item {
+  background-color: rgba(246, 246, 254, 1);
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 392px;
+}
+
+.item h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: rgba(46, 47, 66, 1);
+}
+
+.item ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-top: 16px;
+}
+
+.item ul > li {
+  border: 1px solid rgba(128, 128, 128, 1);
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(46, 47, 66, 1);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  justify-content: center;
+}
+
+.gallery > li > img {
+  width: 360px;
+  height: 300px;
+  object-fit: cover;
+}
+
+#name-input {
+  width: 360px;
+  padding: 8px 16px;
+  border: 1px solid rgba(128, 128, 128, 1);
+  border-radius: 4px;
+  color: rgba(46, 47, 66, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1 {
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgba(46, 47, 66, 1);
+  line-height: 1.3;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  row-gap: 8px;
+}
+
+.login-form > label {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(46, 47, 66, 1);
+}
+
+.login-form > label > input {
+  padding: 8px 16px;
+  border: 1px solid rgba(128, 128, 128, 1);
+  border-radius: 4px;
+  color: rgba(46, 47, 66, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.login-form > button {
+  display: inline-block;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(78, 117, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  max-width: 86px;
+}
+
+.widget {
+  text-align: center;
+}
+
+.widget > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(46, 47, 66, 1);
+}
+
+.widget > button {
+  display: inline-block;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(78, 117, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 16px;
+}
